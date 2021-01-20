@@ -8,6 +8,15 @@ namespace GenericsIntro
         {
             MyList<string> isimler = new MyList<string>();
             isimler.Add("Kerim");
+            isimler.Add("Emre");
+
+            Console.WriteLine(isimler.Length);
+
+            foreach (var item in isimler.Items)
+            {
+                Console.WriteLine(item);
+            }
+            
         }
     }
 }
